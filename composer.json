@@ -1,0 +1,39 @@
+{
+    "name": "limingxinleo/support-crontab",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "component"
+    ],
+    "description": "Crontab",
+    "authors": [
+        {
+            "name": "李铭昕",
+            "email": "limingxin@swoft.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "limx\\Support\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "swoft/swoole-ide-helper": "dev-master",
+        "phpunit/phpunit": "^5.7",
+        "phpstan/phpstan": "^0.10.5",
+        "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit -c phpunit.xml --colors=always",
+        "cs-fix": "php-cs-fixer fix $1"
+    }
+}
