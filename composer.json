@@ -1,7 +1,7 @@
 {
     "name": "limingxinleo/support-crontab",
     "type": "library",
-    "license": "MIT",
+    "license": "GPL-3.0+",
     "keywords": [
         "php",
         "component"
